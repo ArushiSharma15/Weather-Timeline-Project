@@ -1,4 +1,4 @@
-//http://api.weatherapi.com/v1/current.json?key=b8d775012883436c89172454260502 &q=Chennai&aqi=no
+
 
 
 const temperatureField = document.querySelector(".temp p");
@@ -13,7 +13,7 @@ form.addEventListener("submit", searchForLocation);
 let target = "Mumbai";
 
 const fetchResults = async (targetlocation) => {
-  let url = `http://api.weatherapi.com/v1/current.json?key=b8d775012883436c89172454260502&q=${targetlocation}&aqi=no`;
+  let url = `https://api.weatherapi.com/v1/current.json?key=b8d775012883436c89172454260502&q=${targetlocation}&aqi=no`;
 
   const res = await fetch(url);
   const data = await res.json();
@@ -65,5 +65,6 @@ function searchForLocation(e) {
   target = searchField.value;
   fetchResults(target);
 }
+
 
 fetchResults(target);
