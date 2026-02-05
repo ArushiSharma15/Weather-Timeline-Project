@@ -22,7 +22,7 @@
 }
 
 .weather_container {
-  color: black;
+  color: white;
 }
 
 .temp{ 
@@ -67,3 +67,4 @@ nav form button{
       border: black;
 }
       cursor: pointer;
+
