@@ -49,8 +49,8 @@ function updateDetails(temp, locationName, time, condition) {
   else if (weather.includes("clear") || weather.includes("sunny")) {
       source.src = "videos/clear.mp4";
   } 
-  else if (weatherCondition.includes("overcast")) {
-    bgVideo.src = "videos/overcast.mp4";
+  else if (weather.includes("overcast")) {
+    source.src = "videos/overcast.mp4";
 }
   else {
       source.src = "videos/clear.mp4";
@@ -68,5 +68,6 @@ function searchForLocation(e) {
 
 
 fetchResults(target);
+
 
 
