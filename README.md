@@ -8,7 +8,7 @@ Users can view details such as:
 📅 Date and time
 🌦️ Weather conditions for that location
 
-The website is built using HTML, CSS, and JavaScript, focusing on a clean UI, responsive design, and dynamic data handling. This project helped strengthen my understanding of DOM manipulation, styling layouts, and working with time-based data in JavaScript.
+The website is built using HTML, CSS, and JavaScript, focusing on a clean UI, responsive design, and dynamic data handling. This project helped strengthen my understanding , styling layouts, and working with time-based data in JavaScript.
 
 🛠️ Technologies Used
 
