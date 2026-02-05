@@ -38,22 +38,22 @@ function updateDetails(temp, locationName, time, condition) {
   let weather = condition.toLowerCase();
 
   if (weather.includes("rain") || weather.includes("drizzle")) {
-      source.src = "rain.mp4";
+      source.src = "videos/rain.mp4";
   } 
   else if (weather.includes("mist") || weather.includes("fog") || weather.includes("haze")) {
-      source.src = "mist.mp4";
+      source.src = "videos/mist.mp4";
   } 
   else if (weather.includes("cloud")) {
-      source.src = "cloudy.mp4";
+      source.src = "videos/cloudy.mp4";
   } 
   else if (weather.includes("clear") || weather.includes("sunny")) {
-      source.src = "clear.mp4";
+      source.src = "videos/clear.mp4";
   } 
   else if (weatherCondition.includes("overcast")) {
-    bgVideo.src = "overcast.mp4";
+    bgVideo.src = "videos/overcast.mp4";
 }
   else {
-      source.src = "clear.mp4";
+      source.src = "videos/clear.mp4";
   }
 
   video.load();
@@ -68,4 +68,5 @@ function searchForLocation(e) {
 
 
 fetchResults(target);
+
 
